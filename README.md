@@ -15,4 +15,4 @@
 > 편미분을 사용해서 가중치와 편향을 동시에 학습합니다.
 >
 
-https://github.com/kichan05/2023-Sunrin-Algorithm-Report/assets/70091408/392346d9-a745-4e90-8762-ce6b16d2416e
+[![Video Label](http://img.youtube.com/vi/BTZ6FsfBSIo/0.jpg)](https://youtu.be/BTZ6FsfBSIo)
