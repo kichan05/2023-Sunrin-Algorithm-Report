@@ -5,12 +5,14 @@
 > 
 > <선형회귀 알고리즘 구현하기> 프로젝트입니다.
 
+# 보고서
+- 프로젝트 결과물을 요약한 보고서를 참구해주세요
+- [보고서 바로 가기](https://drive.google.com/file/d/1QWMVIBJR9zNJgvc8ijhUzFry4pnmsS9p/view?usp=sharing)
+
 # 시연
 > 📍시연
 > 
 > 편미분을 사용해서 가중치와 편향을 동시에 학습합니다.
 >
 
-<video controls>
-  <source src="./assets/exam-02.mp4" type="video/mp4">
-</video>
+https://github.com/kichan05/2023-Sunrin-Algorithm-Report/assets/70091408/392346d9-a745-4e90-8762-ce6b16d2416e
