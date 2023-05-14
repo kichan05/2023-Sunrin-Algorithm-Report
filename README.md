@@ -15,6 +15,6 @@
 > 편미분을 사용해서 가중치와 편향을 동시에 학습합니다.
 >
 
-[![Video Label](http://img.youtube.com/vi/BTZ6FsfBSIo/0.jpg)](https://youtu.be/BTZ6FsfBSIo)
+[![Video Label](http://img.youtube.com/vi/BTZ6FsfBSIo/0.jpg)](https://youtu.be/BTZ6FsfBSIo){:target="_blank"}
 
 (이미지를 클릭해주세요)
