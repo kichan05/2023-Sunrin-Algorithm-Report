@@ -16,3 +16,5 @@
 >
 
 [![Video Label](http://img.youtube.com/vi/BTZ6FsfBSIo/0.jpg)](https://youtu.be/BTZ6FsfBSIo)
+
+(이미지를 클릭해주세요)
