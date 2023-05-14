@@ -1,10 +1,11 @@
 import numpy as np
 
+
 class LinearRegression:
     def __init__(self):
         self.parameters = np.array([10, 10], dtype="float64")
 
-    def get_loss(self, x, y, weight = None):
+    def get_loss(self, x, y, weight=None):
         """
         평균 제곱 오차 방식을 사용해서 오차를 구한다.
         :param x:
@@ -30,6 +31,7 @@ class LinearRegression:
         """
 
         glops = np.zeros_like(parameter)
+        # 전달받은 파라미터 배열과 동일한 형태의 배열을 만든다.
 
         for index, weight in enumerate(parameter):
             parameter[index] = weight + d_x
@@ -43,24 +45,26 @@ class LinearRegression:
 
         return glops
 
-    def predict(self, x, parameters = None):
+    def predict(self, x, parameters=None):
         """
+        입력 데이터를 통해서 예츨 하는 함수
         :param x:
         :param parameters:
         :return:
         """
 
-        if(parameters is None):
+        if (parameters is None):
             weights = self.parameters[:-1]
             bias = self.parameters[-1]
         else:
             weights = parameters[:-1]
             bias = parameters[-1]
 
-
         return x * weights + bias
 
-    def fit(self, x, y, epoch=300, learning_rate=np.array([0.001, 0.01])):
+    def fit(self,
+        x, y, epoch=3000,
+        learning_rate=np.array([0.001, 0.01])):
         """
         학습을 진행하는 함수
         :param x:
